@@ -15,7 +15,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>hello my friend 👋{person.firstName}'s Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
@@ -55,16 +55,16 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Manage Your Device To Be Better Than Ever!</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: <>Recent project: <strong className="ml-4">Axion AOSP</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm VannTakashi , AOSP Developer<Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where i develop mobile phones
+      <br /> for flexibility, convenience, and to improve performance for every project I develop.
     </>
   ),
 };
@@ -90,9 +90,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Heyyaa everyone! 👋
+I'm Revan Andrean, 17 years old and currently living in Indonesia! 🇮🇩
+I'm really into gaming and I love managing any kind of project—it's something that keeps me excited and motivated! 🎮🛠️
+Still learning a lot every day, so I’m always open to feedback and happy to grow together with all of you! 🌱
+Thanks a bunch for having me here! Let’s have fun and do great things together! 🚀✨
       </>
     ),
   },
@@ -101,17 +103,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Development AOSP",
+        timeframe: "2024 - Present",
+        role: "Builder ROMs AOSP",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Manage About ROMs Building and adjust configuration for user convenience.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            I do all of this for user convenience, so that my work can be well received by the community.
           </>,
         ],
         images: [
@@ -147,12 +147,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "SMAN 1 CIKALONG WETAN",
+        description: <>Studying at SMA NEGRI 1 Cikalongwetan.</>,
       },
     ],
   },
@@ -161,8 +157,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "HTML",
+        description: <>I have mastered HTML programming language</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -180,8 +176,8 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "CSS",
+        description: <>I can design using CSS and use it</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
