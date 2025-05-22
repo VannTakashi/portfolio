@@ -160,33 +160,21 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
         title: "HTML",
         description: <>I have mastered HTML programming language</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         title: "CSS",
         description: <>I can design using CSS and use it</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+       },
+      {
+        title: "C++",
+        description: <>Basic knowledge of C++ For managing kernel or debugging</>,
+       },
+       {
+        title: "Shell Scripting",
+        description: <>shell scripting base to create a program script and perform multiple tasks with one command!</>,
+        
+       },
       },
     ],
   },
