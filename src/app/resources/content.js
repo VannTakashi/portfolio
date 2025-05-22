@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Manage Your Device To Be Better Than Ever!</>,
+  headline: <>Heyyaa👋 I'm VannTakashii , AOSP ROMs Developer</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Axion AOSP</strong></>,
@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I'm VannTakashi , AOSP Developer<Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where i develop mobile phones
+      Bringing Ur Device To <Logo icon={true} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, For Best Experience and Stability!
       <br /> for flexibility, convenience, and to improve performance for every project I develop.
     </>
   ),
