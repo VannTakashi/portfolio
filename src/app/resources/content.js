@@ -124,6 +124,8 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
           },
         ],
       },
+     ],
+    },
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
@@ -148,6 +150,7 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
             width: 16,
             height: 9,
           }
+         ]
        },
        {
         title: "Shell Scripting",
@@ -159,7 +162,7 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
             width: 16,
             height: 9,
           }
-        
+        ]
        },
     ],
   },
