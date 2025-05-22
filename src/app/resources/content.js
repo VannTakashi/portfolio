@@ -175,7 +175,6 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
         description: <>shell scripting base to create a program script and perform multiple tasks with one command!</>,
         
        },
-      },
     ],
   },
 };
