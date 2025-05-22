@@ -15,7 +15,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Ola 👋{person.firstName}'s Newsletter</>,
+  title: <>hello my friend 👋{person.firstName}'s Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
@@ -55,11 +55,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Heyyaa👋 I'm VannTakashii, AOSP ROMs Developer</>,
+  headline: <>Heyyaa👋 I'm VannTakashii , AOSP ROMs Developer</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Axion AOSP</strong></>,
-    href: "/work/about-custom-rom",
+    href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>

@@ -1,42 +1,7 @@
 ---
-title: "About Custom Kernel Development🐧"
-publishedAt: "2025-05-22"
-summary: "Development of a custom Android kernel designed to maximize performance and stability, delivering a smooth and efficient experience across mid to low-end devices."
+title: "Once UI: Open-source design system"
+publishedAt: "2024-04-08"
 images:
-  - "/images/projects/project-01/antonwibowo.jpg"
-team:
-  - name: "VannTakashii"
-    role: "Maintainer"
-    avatar: "/images/avatar.jpg"
-    github: "https://github.com/VannTakashi/"
+  - "/images/projects/project-01/cover-04.jpg"
+  - "/images/projects/project-01/video-01.mp4"
 ---
-
-## Overview?😶
-
-This project revolves around building a custom Android kernel from source, tailored to boost system responsiveness and ensure long-term stability. It is specially crafted for budget and mid-range devices where every optimization counts. From scheduling tweaks to power management, the kernel is tuned to deliver consistent performance with minimal resource drain.
-
-## What features are implemented?🤔
-
-- **Optimized CPU/GPU Scheduling** : Fine-tuned schedulers (EAS/HMP) to reduce jank, boost interactive performance, and maintain balance between power and speed.
-- **Low-Latency Configurations** : Applied kernel flags and settings to reduce input lag and improve responsiveness in real-time operations.
-- **Battery Life Enhancements** : Integrated intelligent idle mechanisms (Wakelocks management, suspend optimizations) for better standby time without compromising performance.
-- **Stability-Driven Improvements** : Proactive debug configs, memory leak patches, and watchdog setups to keep the system stable under all loads.
-- **Custom Governors and I/O Schedulers** : Included performance-oriented and battery-friendly governors like schedutil, blu_active, and tuned I/O schedulers (like Noop/Zen) for faster app loading and smoother UX.
-
-## Technologies Used
-
-- **Linux Kernel (GKI/AOSP Base)** : Source base used for kernel development, patched and customized for Android hardware.
-- **Clang/LLVM Toolchain **: Used to compile the kernel with modern optimization flags and LTO (Link-Time Optimization).
-- **Shell Scripts** : Automate build process, error detection, packaging, and telegram notification integration.
-- **AnyKernel3** : Universal kernel flasher to pack and deploy the compiled kernel easily to target devices.
-- **Telegram Bot API** : Integrated to notify build results, error logs, and release updates directly to developer channels.
-
-## Challenges and Lessons
-
-Developing a kernel required learning low-level systems programming concepts and working directly with hardware abstraction layers. One of the biggest challenges was understanding and debugging kernel panic logs using tools like dmesg, kmsg, and ftrace.
-
-Additionally, learning C/C++ was essential to read and modify kernel source code effectively—especially for implementing custom drivers or making deeper performance optimizations. This provided valuable insights into how Android interacts with the Linux kernel and specific device hardware.
-
-## Overcome
-
-The custom kernel delivered measurable improvements in overall performance, power efficiency, and system stability. Multitasking became smoother, and standby battery consumption was significantly reduced. By working directly with C/C++ code, key optimizations were implemented to match the hardware characteristics of target devices.
