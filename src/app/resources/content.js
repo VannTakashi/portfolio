@@ -34,12 +34,12 @@ const social = [
   },
   {
     name: "Facebook",
-    icon: "Facebook",
+    icon: "facebook",
     link: "https://www.facebook.com/share/1EuoJaDBxL/",
   },
   {
     name: "Telegram",
-    icon: "Telegram",
+    icon: "telegram",
     link: "tg://user?id=6227152745",
   },
   {
