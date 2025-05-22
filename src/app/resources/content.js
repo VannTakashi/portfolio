@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Heyyaa👋 I'm VannTakashii, AOSP ROMs Developer</>,
+  headline: <>Heyyaa👋,I'm VannTakashii AOSP ROMs Developer</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Axion AOSP</strong></>,
@@ -105,7 +105,7 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
       {
         company: "Development AOSP",
         timeframe: "2024 - Present",
-        role: "Builder ROMs AOSP",
+        role: "Maintainer",
         achievements: [
           <>
             Manage About ROMs Building and adjust configuration for user convenience.
@@ -117,38 +117,20 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/aosp.jpg",
+            alt: "AOSP Project",
             width: 16,
             height: 9,
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
-    ],
-  },
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
         name: "SMAN 1 CIKALONG WETAN",
-        description: <>Studying at SMA NEGRI 1 Cikalongwetan.</>,
+        description: <>Studying at SMA NEGERI 1 Cikalongwetan.</>,
       },
     ],
   },
@@ -157,26 +139,26 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
     title: "Technical skills",
     skills: [
       {
-        title: "HTML",
-        description: <>I have mastered HTML programming language</>,
-        images: [],
-        // optional: leave the array empty if you don't want to display images
-      },
-      {
-        title: "CSS",
-        description: <>I can design using CSS and use it</>,
-        images: [],
-        // optional: leave the array empty if you don't want to display images
-       },
-      {
         title: "C++",
-        description: <>Basic knowledge of C++ For managing kernel or debugging</>,
-        images: [],
+        description: <>Basic knowledge of C++ For managing source rom and fixing some stuffs at kernel sources</>,
+        images: [
+        {
+            src: "/images/projects/codes/c++.jpg",
+            alt: "C++",
+            width: 16,
+            height: 9,
+          }
        },
        {
         title: "Shell Scripting",
-        description: <>shell scripting base to create a program script and perform multiple tasks with one command!</>,
-        images: [],
+        description: <>shell scripting base to create a program script and perform multiple tasks with one command</>,
+        images: [
+        {
+            src: "/images/projects/codes/shell.jpg",
+            alt: "shell",
+            width: 16,
+            height: 9,
+          }
         
        },
     ],
@@ -186,7 +168,7 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "my blogs? hmm🤔",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -212,27 +194,32 @@ const gallery = {
     {
       src: "/images/gallery/horizon.jpg",
       alt: "image",
-      orientation: "potrait",
+      width: 9,
+      height: 16,
     },
     {
       src: "/images/gallery/axion.jpg",
       alt: "image",
-      orientation: "potrait",
+      width: 9,
+      height: 16,
     },
     {
       src: "/images/gallery/matrixx.jpg",
       alt: "image",
-      orientation: "potrait",
+      width: 9,
+      height: 16,
     },
     {
       src: "/images/gallery/los-ext.jpg",
       alt: "image",
-      orientation: "potrait",
+      width: 9,
+      height: 16,
     },
     {
       src: "/images/gallery/evox.png",
       alt: "image",
-      orientation: "potrait",
+      width: 9,
+      height: 16,
     },
   ],
 };
