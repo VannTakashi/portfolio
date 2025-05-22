@@ -138,4 +138,4 @@ const mailchimp = {
   },
 };
 
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, font };
+export { routes, effects, style, display, mailchimp, baseURL, font };
