@@ -63,8 +63,8 @@ const home = {
   },
   subline: (
     <>
-      Bringing Ur Device To <Logo icon={true} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, For Best Experience and Stability!
-      <br /> for flexibility, convenience, and to improve performance for every project I develop.
+      Bringing Ur Device To For Best Experience and Stability!
+      <br /> Explore this portfolio to learn about me🤓
     </>
   ),
 };
