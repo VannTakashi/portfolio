@@ -159,20 +159,24 @@ Thanks a bunch for having me here! Let’s have fun and do great things together
       {
         title: "HTML",
         description: <>I have mastered HTML programming language</>,
+        images: [],
         // optional: leave the array empty if you don't want to display images
       },
       {
         title: "CSS",
         description: <>I can design using CSS and use it</>,
+        images: [],
         // optional: leave the array empty if you don't want to display images
        },
       {
         title: "C++",
         description: <>Basic knowledge of C++ For managing kernel or debugging</>,
+        images: [],
        },
        {
         title: "Shell Scripting",
         description: <>shell scripting base to create a program script and perform multiple tasks with one command!</>,
+        images: [],
         
        },
     ],
