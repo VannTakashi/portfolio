@@ -219,29 +219,29 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/horizon.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "potrait",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/axion.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "potrait",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/matrixx.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "potrait",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery/los-ext.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "potrait",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/evox.png",
       alt: "image",
-      orientation: "vertical",
+      orientation: "potrait",
     },
     {
       src: "/images/gallery/vertical-2.jpg",
